@@ -1,0 +1,40 @@
+.hero {
+    background: url(../../assets/fond-blanc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 70vh;
+    padding: 150px 20px;
+    text-align: center;
+    color:#423d41;
+  }
+  
+  .hero h2 {
+    font-size: 2rem;
+    padding-top: 8em;
+    color: #333;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    color: #666;
+    font-size: 1.2rem;
+  }
+
+.hero strong {
+  color: 	#d1a6c6; 
+}
+
+.hero-image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
