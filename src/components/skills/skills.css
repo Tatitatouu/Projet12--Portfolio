@@ -20,10 +20,36 @@
 .skills-title {
   color: white;
   font-size: 2.5rem;
-  font-weight: bold;
-  text-transform: uppercase;
+  margin-bottom: 2em;
   letter-spacing: 2px;
-  margin-bottom: 10px;
+}
+
+.dotsSkills {
+  opacity: 0;
+  animation: blink 5s infinite steps(1, end);
+  color: white;
+}
+
+.dot1 {
+  animation-delay: 0.5s;
+}
+
+.dot2 {
+  animation-delay: 1s;
+}
+
+.dot3 {
+  animation-delay: 1.5s;
+}
+
+/* Animation des trois points */
+@keyframes blink {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
 }
 
 .skills-wrapper {
@@ -66,8 +92,8 @@
 
 .progress-fill {
   height: 100%;
-  background-color: #d1a6c6;
-  transition: width 1s ease-in-out;
+  background-color: white;
+  transition: width 5s ease-in-out;
   border-radius: 6px;
 }
 .cv-container {

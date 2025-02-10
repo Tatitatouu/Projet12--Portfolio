@@ -34,7 +34,11 @@ export default function Skills() {
 
   return (
     <section id="compétences" className="skills">
-      <h2 className="skills-title">Compétences</h2>
+      <h2 className="skills-title">Compétences
+        <span className="dotsSkills dot1"> .</span>
+        <span className="dotsSkills dot2">.</span>
+        <span className="dotsSkills dot3">.</span>
+      </h2>
       <div className="skills-wrapper">
         <div className="skills-container">
           {skills.map((skill, index) => (
