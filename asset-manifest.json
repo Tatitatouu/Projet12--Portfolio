@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Tatitatouu/Projet12--Portfolio/static/css/main.e8f0630b.css",
+    "main.js": "/Tatitatouu/Projet12--Portfolio/static/js/main.a9f6d8c0.js",
+    "static/media/portfolio-nono.png": "/Tatitatouu/Projet12--Portfolio/static/media/portfolio-nono.04ac5f82d396a472f89b.png",
+    "static/media/portfolio-724events.png": "/Tatitatouu/Projet12--Portfolio/static/media/portfolio-724events.6e4d94525bef3824148f.png",
+    "static/media/portfolio-ohmyfood.png": "/Tatitatouu/Projet12--Portfolio/static/media/portfolio-ohmyfood.7b19d269dce51258b8ff.png",
+    "static/media/372349F8-D428-4118-878F-B7525F835DBB.JPG": "/Tatitatouu/Projet12--Portfolio/static/media/372349F8-D428-4118-878F-B7525F835DBB.a96e4816953fcee75154.JPG",
+    "static/media/CV .pdf": "/Tatitatouu/Projet12--Portfolio/static/media/CV .cbfd9d534923d109ae3f.pdf",
+    "static/media/CV .png": "/Tatitatouu/Projet12--Portfolio/static/media/CV .974c2f5dda730d13f15f.png",
+    "static/media/logo-static-white.png": "/Tatitatouu/Projet12--Portfolio/static/media/logo-static-white.65d43e031e8f0ed5b91c.png",
+    "static/media/nuage-compétences.webp": "/Tatitatouu/Projet12--Portfolio/static/media/nuage-compétences.e793c63bc2fff8cd6b9f.webp",
+    "static/media/portfolio-sophiebluel.png": "/Tatitatouu/Projet12--Portfolio/static/media/portfolio-sophiebluel.c661615caf001eecb27c.png",
+    "static/media/fond-blanc.jpg": "/Tatitatouu/Projet12--Portfolio/static/media/fond-blanc.a16591b5a77f5ab415bb.jpg",
+    "index.html": "/Tatitatouu/Projet12--Portfolio/index.html",
+    "main.e8f0630b.css.map": "/Tatitatouu/Projet12--Portfolio/static/css/main.e8f0630b.css.map",
+    "main.a9f6d8c0.js.map": "/Tatitatouu/Projet12--Portfolio/static/js/main.a9f6d8c0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8f0630b.css",
+    "static/js/main.a9f6d8c0.js"
+  ]
+}
