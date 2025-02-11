@@ -2,16 +2,14 @@
   background: url("../../assets/nuage-compétences.webp");
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
   background-position: center;
-  padding: 2em 0.5em;
+  padding: 2em 1em;
   min-height: 100vh;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
 .skills-header {
   text-align: center;
   margin-bottom: 40px;
@@ -19,9 +17,10 @@
 
 .skills-title {
   color: white;
-  font-size: 2.5rem;
-  margin-bottom: 2em;
+  font-size: 2rem;
+  margin-bottom: 1.5em;
   letter-spacing: 2px;
+  text-align: center;
 }
 
 .dotsSkills {
@@ -55,9 +54,8 @@
 .skills-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 3em;
-  padding: 3em ;
-  align-items: start;
+  gap: 2em;
+  padding: 2em;
   max-width: 1200px;
   width: 100%;
 }
@@ -105,12 +103,13 @@
 .cv-image {
   max-width: 500px;
   width: 100%;
-  border-radius: 8px;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
 }
 
 .cv-card {
   transition: transform 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .cv-card:hover {
@@ -119,7 +118,7 @@
 
 
 .cv-download-btn {
-  margin-top: 15px;
+  margin-top: 2em;
   padding: 12px 24px;
   font-size: 1.2rem;
   font-weight: bold;
@@ -134,4 +133,41 @@
 
 .cv-download-btn:hover {
   background-color: #b88caf;
+}
+
+@media (max-width: 768px) {
+  .skills-wrapper {
+    grid-template-columns: 1fr;
+    gap: 1.5em;
+    padding: 1.5em;
+  }
+
+  .skills-title {
+    font-size: 1.8rem;
+  }
+
+  .progress-bar {
+    height: 8px;
+  }
+
+  .cv-image {
+    max-width: 80%;
+    padding: 3em 5em;
+  }
+
+  .cv-download-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    width: 60%;
+  }
+}
+
+@media (max-width: 480px) {
+  .skills-title {
+    font-size: 1.5rem;
+  }
+
+  .progress-bar {
+    height: 6px;
+  }
 }

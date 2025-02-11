@@ -32,7 +32,7 @@ const About = () => {
             <User className="feature-icon" size={40} />
             <h2 className="feature-title">Qui suis-je ?</h2>
             <p className="feature-text">
-            Tatiana, 25 ans, développeuse en devenir. Passionnée par la tech depuis 2023, j'ai débuté en autodidacte avant de me former.
+            Tatiana, 25 ans, développeuse en devenir. J'ai débuté en autodidacte avant de me former.
             </p>
           </div>
 
