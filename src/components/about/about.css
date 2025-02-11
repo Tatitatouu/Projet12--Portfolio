@@ -4,7 +4,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0 1rem;
+  padding: 2rem 2rem;  
   text-align: center;
 }
 .about-section {
@@ -89,6 +89,7 @@
 
 .cards-grid {
   margin: 0 auto;
+  padding: 2em;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;

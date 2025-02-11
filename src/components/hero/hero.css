@@ -4,15 +4,16 @@
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    height: 65vh;
-    padding: 150px 0;
+    height: 80vh;
     text-align: center;
   }
   
   .hero h2 {
+    font-weight: 500;
     font-size: 2rem;
-    padding-top: 8em;
+    padding-top: 10em;
     color: #333;
+    margin: 0;
   }
   
   .hero p {

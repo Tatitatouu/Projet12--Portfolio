@@ -1,14 +1,11 @@
 * {
   font-family: "Montserrat", serif;
   font-optical-sizing: auto;
-  font-weight: weight;
+  font-weight: normal;
   font-style: normal;
+  box-sizing: border-box;
 }
 
-body {
-  padding-top: 70px; 
-  margin: 0;
-}
 .header-container {
   position: fixed;
   width: 100%;
@@ -61,7 +58,6 @@ body {
   position: absolute;
   top: 70px;
   left: 0;
-  background-color: #181818;
   width: 100%;
   padding: 20px 0;
 }
