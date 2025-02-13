@@ -1,5 +1,4 @@
 import React from "react";
-import { BrowserRouter as Router } from "react-router-dom";
 import Header from "./components/header/header"
 import HeroSection from "./components/hero/hero"
 import About from "./components/about/about";
@@ -10,7 +9,7 @@ import Footer from "./components/footer/footer";
 
 function App() {
   return (
-    <Router basename="/Projet12--Portfolio">
+    <>
       <Header />    
       <HeroSection />
       <About />
@@ -18,7 +17,7 @@ function App() {
       <Portfolio />
       <ContactForm />
       <Footer />
-    </Router>
+    </>
   );
 }
 

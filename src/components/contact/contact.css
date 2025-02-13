@@ -20,7 +20,7 @@
   }
   
   .contact-form {
-    max-width: 500px;
+    max-width: 600px;
     margin: 04em auto;
     background: #282a36;
     padding: 30px;
@@ -39,7 +39,7 @@
   
   .contact-form input,
   .contact-form textarea {
-    width: 90%;
+    width: 100%;
     padding: 12px;
     margin-bottom: 20px;
     border: 2px solid transparent;
