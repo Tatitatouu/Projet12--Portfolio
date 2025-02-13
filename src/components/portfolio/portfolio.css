@@ -37,7 +37,7 @@
   background-color: white;
   border-radius: 12px;
   padding: 20px;
-  min-height: 430px;
+  min-height: 450px;
   max-width: 400px;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
@@ -73,17 +73,17 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 0.8em;
+  gap: 0.5em;
   margin-top: 1.5em;
 }
 
 .technology-tag {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: #0000001a;
+  border-radius: 30px;
   color: #333;
-  padding: 4px 12px;
-  border-radius: 16px;
   font-size: 0.8rem;
-  transition: all 0.3s ease;
+  padding: 0.5em 1.2em;
+  transition: all .3sease;
 }
 
 .portfolio-item:hover .technology-tag {
