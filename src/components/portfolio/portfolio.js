@@ -10,7 +10,7 @@ const projects = [
     title: "Site internet pour une Coach Sportive",
     description: "Conception d'un site internet pour une amie coach sportive",
     image: portfolioNono,
-    link: "https://tatitatouu.github.io/ProjetNono/"
+    link: "https://www.noemie-coach.fr/"
   },
   {
     title: "Site pour une agence d'évènementiel - 724 Events",
