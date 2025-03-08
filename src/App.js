@@ -10,7 +10,7 @@ import Footer from "./components/footer/footer";
 
 function App() {
   return (
-    <Router basename="/Tatitatouu/Projet12--Portfolio">
+    <Router>
       <Header />    
       <HeroSection />
       <About />
