@@ -20,7 +20,7 @@ function ContactForm() {
     if (showSuccess) {
         return (
             <div className="success-container">
-                <p className="success-message">Merci ! Je reviendrai vers toi rapidement. 😊</p>
+                <p className="success-message">Merci ! Je reviendrai vers vous rapidement. 😊</p>
             </div>
         );
     }
@@ -28,7 +28,7 @@ function ContactForm() {
     return (
         <section id="contact" className="contact-section">
             <h2 className="contact-title">Me Contacter</h2>
-            <p className="contact-subtitle">Une question ? Un projet ? Écris-moi !</p>
+            <p className="contact-subtitle">Une question ? Un projet ? Écrivez-moi !</p>
 
             <form onSubmit={handleSubmit} className="contact-form">
                 <label htmlFor="name">Nom et prénom</label>
