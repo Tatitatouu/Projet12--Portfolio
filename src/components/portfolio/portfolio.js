@@ -8,7 +8,7 @@ import portfolioOhMyFood from "../../assets/portfolio-ohmyfood.png"
 const projects = [
   {
     title: "Site internet pour une Coach Sportive",
-    description: "Conception d'un site internet pour une amie coach sportive",
+    description: "#Vercel #Github #Ionos #React",
     image: portfolioNono,
     link: "https://www.noemie-coach.fr/"
   },
@@ -20,13 +20,13 @@ const projects = [
   },
   {
     title: "Portfolio d'une Architecte - Sophie Bluel",
-    description: "Intéraction entre le back-end et le front-end.",
+    description: "#Back-end #Front-end #JavaScript #CSS",
     image: portfolioSophieBluel,
     link: "https://github.com/Tatitatouu/Sixi-meProjet"
   },
   {
     title: "Site d'un restaurant - Oh My Food",
-    description: "Conception complète d'un site pour un restaurant",
+    description: "#Sass #HTML #Animation #Responsivité",
     image: portfolioOhMyFood,
     link: "https://tatitatouu.github.io/Quatri-meProjet/"
   },
